@@ -1,15 +1,18 @@
 body {
-  background-color: #edede9;
-  color: #a3b18a;
-  font-family: 'Mulish', sans-serif;
-  font-size: 18px;
-  line-height:1.5 ;
+  background-color: #e9ecef;
+  color: #332e2e;
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
 }
 
 .header {
-  color: #588157;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 30px;
+  font-size: 90px;
+  line-height: 0.2;
+}
+.legend {
+  font-size: 25px;
+  font-style: italic;
+  line-height: 0.2;
 }
 
 a {
@@ -25,15 +28,19 @@ a:hover {
 
 
 .img-circle {
-  border-radius: 50%;
+  border-radius: 70%;
+  margin-top: 20px;
+  width: 30%;
+  border: 3px solid #332e2e;
 }
 
 .top-card{
-  background-color: white;
-  padding: 30px;
-  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
-  border-radius: 10px;
-  margin: 50px 80px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.card{
+  margin: 0 20%;
   text-align: center;
 }
 
@@ -46,16 +53,10 @@ a:hover {
   display: inline;
 }
 
-.button{
-  background-color: #d5bdaf;
-  color: white;
-  padding: 15px 20px;
-  border-radius: 4px;
-}
 
 .list-inline i {
-  font-size: 50px;
-  color: rgb(230, 230, 230);
+  font-size: 30px;
+  color: rgb(14, 8, 8);
 }
 
 @media (max-width: 540px) {
